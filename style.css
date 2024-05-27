@@ -1,0 +1,104 @@
+body{
+    background-color: lightgray;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+.mainHeader{
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 5vw;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.mainHeader h1{
+    margin-bottom: 25px;
+}
+
+.entry{
+    box-sizing: border-box;
+    text-align: center;
+    margin:auto;
+    padding: 0;
+    width: 50%;
+    background-color:white;
+}
+.entry input[type = "text"]{
+    font-size: 1.5rem;
+    size:300px;
+    box-sizing: border-box;
+    margin:0;
+    border: 3px solid black;
+    border-right: none;
+    float: left;
+    width: 70%
+}
+.entry button{
+    
+    box-sizing: border-box;
+    border-left: 3px dotted grey;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 1.5rem;
+    overflow:hidden;
+    
+    width: 30%;
+}
+
+
+.list{
+
+    width: 70%;
+    margin:auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 25px;;
+    
+}
+.list li{
+    border: 2px dotted lightgray;
+    border-radius: 30px;
+    padding:8px;
+    margin: 20px;;
+    color: white;
+    
+   list-style: white;
+    text-align: left;
+    align-content: center;
+    overflow-wrap: break-word;
+}
+.list li::marker {
+    color: white;
+}
+.list li:hover{
+    
+    color:black;
+    list-style-type: white;
+    background-color: white;
+   
+     
+      
+}
+
+.xbtn{
+    
+    margin-right: 10px;
+    color:black;
+    font-weight: 900;
+    font-size: 16px;
+  
+    background-color: rgba(0, 0, 1, 0);
+    border:0px grey solid;
+    border-radius:5px;
+    float: right;
+    text-align: center;
+
+ 
+    
+}
